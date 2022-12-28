@@ -1,0 +1,44 @@
+existen diferentes tipos de selecrores css
+
+los basicos son:
+    * de tipo:
+        div { ... }
+
+    * de clase:
+        .elemento { ... }
+
+    * de id:
+        #id-del-elemento { ... }
+
+    * de atributo:
+        a[href="..."] { ... }
+
+    * universal:
+        * { ... }
+
+los selecores combinados
+    * descendientes:
+        selectore de tipo _____ hijo decendiente
+        div p { ... }
+
+    * Hijo directo:
+        especifica que el p es hijo directo de div (esta dentro del div)
+        div > p { ... }
+
+    * elemento adyacente:
+        esta debajo del elemento
+        div + p { ... }
+
+    * general de hermanos:
+        div ~ p { ... }
+
+pseudoclases pseudoelementos:
+
+    pseudoclases:
+        permiten llegar a ciertas acciones de las actividades que hace el usuario
+        ej: :active / :focus / :hover / nth-child(n)
+
+    pseudoelemento:
+        permiten acceder a elementos html, que no permiten acceder atraves de los 
+        demas selectores css
+        ej: ::after / ::before / ::first-letter / ::plaeholder

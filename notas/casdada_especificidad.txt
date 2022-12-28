@@ -1,0 +1,22 @@
+
+Cascada:
+
+css = cascading style sheet / Hoja de estilo en cascada
+
+el orden de las reglas en css es IMPORTANTE
+ej:
+    .h1 { color:red; }
+    .h1 { color:blue; }
+
+    Nota: al ser un estilo en cascada el orden en como
+          se establezca los estilos tendra prioridad
+          en el ejemplo al final el estilo que va tener
+          el h1 sera el utimo que tenga en este caso
+          blue.
+
+Especificidad:
+
+entre mayor Especificidad, mayor va a ser la probabilidad
+de que sus declaraciones se usen sobre las demas.
+
+calcular Especificidad: https://specificity.keegan.st/

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Pseudoclase */
+        p {
+            color: salmon;
+        }
+        p:hover {
+            color: skyblue;
+        }
+
+        div p:nth-child(2) {
+            color: blueviolet;
+        }
+
+        /* Pseudoelemento */
+        p::before {
+            content: "😄";
+        }
+        p::after {
+            content: "🦾";
+        }
+        p::first-letter {
+            color: teal;
+        }
+        ::placeholder {
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudoclases</h1>
+    <p>Hola pseudoclase hover</p>
+
+    <hr>
+    <div>
+        <p>Platzi Master</p>
+        <p>es lo</p>
+        <p>Mejor</p>
+    </div>
+    <input type="text" placeholder="name">
+</body>
+</html>
+
+<!--
+    ?otras pseudoclases
+    https://css-tricks.com/pseudo-class-selectors/
+    ?otros pseudoelementos
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+-->
